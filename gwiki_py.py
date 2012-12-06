@@ -64,7 +64,7 @@ MyConn.nick="gw2_bot"
 MyConn.ident="gwiki_py"
 MyConn.server=("irc.chat.be", 6667)
 MyConn.realname="GW2 wiki Bot"
-channel="#testung"
+channel="#chathere"
 quit_reason="Bye Bye was a fun time."
 
 # Before starting the main loop, add the event listeners.
