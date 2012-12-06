@@ -1,8 +1,6 @@
 ## Guild Wars Wiki IRC search bot
 ##
 
-Or GWWISB(nah just kidding)
-
 An IRC bot based on some source code Maurits Dijkstra once put online.
 See the 'irc.py' file.
 
