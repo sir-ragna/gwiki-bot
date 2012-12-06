@@ -9,6 +9,8 @@ $ git pull https://github.com/sir-ragna/gwiki-bot.git master
 git add *.py
 # adding the files that are already being tracked but have been modified
 git add --update
+# add all files in dir
+git add -all
 
 ## Commit
 git commit -am "description of commit"
