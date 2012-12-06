@@ -5,7 +5,7 @@ from urlopen_test import titlefinder
 from spidy_api_test import get_ecto, get_gems
 
 def wikilink(word, chan):
-    url = "http://wiki.guildwars2.com/index.php?title=Special%3ASearch&search=%s&go=Go" % quote( str(word) )
+    url = "http://wiki.guildwars2.com/index.php?title=Special%%3ASearch&search=%s&go=Go" % quote(str(word))
     #url = "http://wiki.guildwars2.com/wiki/" + quote( str(word) )
     response = urlopen(str(url))
     rep_code = response.code    #response code
